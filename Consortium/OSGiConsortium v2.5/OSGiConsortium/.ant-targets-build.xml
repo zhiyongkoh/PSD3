@@ -1,0 +1,7 @@
+bundles
+clean
+cleanall
+compile
+init
+osgi.init
+resolve

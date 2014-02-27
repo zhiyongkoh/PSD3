@@ -1,0 +1,4 @@
+
+public enum USERTYPE {
+	ADMIN, LECTURER, STUDENT
+}

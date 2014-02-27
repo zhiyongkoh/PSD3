@@ -1,0 +1,13 @@
+<story path="lecturer/cook/test/stories/repeatsession.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">repeat a session</inOrderTo>
+  <asA keyword="As a">Lecturer</asA>
+  <iWantTo keyword="I want to">create multiple session at a fix interval</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Create repeated session">
+<step outcome="successful">Given a list of session</step>
+<step outcome="successful">When the use select a session with a session id <parameter>2
+AND the system prompt to enter number of repeat for the session and the use enter 8</parameter></step>
+<step outcome="successful">Then the system create all the session</step>
+</scenario>
+</story>

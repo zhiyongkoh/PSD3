@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>lecturer.cook.test.stories.addsession</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="lecturer/cook/test/stories/addsession.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">add a session to a course</inOrderTo>
+  <asA keyword="As a">Lecture</asA>
+  <iWantTo keyword="I want to">add my session to a course</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Adding session to a course">
+<step outcome="successful">Given a set of detail of a session</step>
+<step outcome="successful">When the system list all the course, enter OS3 as course code which has a course id <parameter>3
+AND the system list all the tutor, user select &quot;cylon&quot; with a tutor id 1
+AND the select &quot;WEEKLY&quot; for session type and select 1 for compulsory
+AND the system will auto generate a session id which is 2 and create the session</parameter></step>
+<step outcome="successful">Then session is created</step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

@@ -1,0 +1,12 @@
+<story path="lecturer/cook/test/stories/createcourse.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">create a course</inOrderTo>
+  <asA keyword="As a">Lecturer</asA>
+  <iWantTo keyword="I want to">create a course with the given information</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Creating a course">
+<step outcome="successful">Given a set of detail of a course from a CSV file</step>
+<step outcome="successful">When course id is 1, course code is <parameter>&quot;OS3&quot;</parameter> and course name is <parameter>&quot;Operating System 3&quot;</parameter></step>
+<step outcome="successful">Then course is created</step>
+</scenario>
+</story>
