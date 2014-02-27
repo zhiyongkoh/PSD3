@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consortium MAIN
+Bundle-SymbolicName: Consortium MAIN
+Bundle-Version: 1.0.0
+Bundle-Activator: main.MainActivator
+Bundle-Vendor: University of Glasgow
+Bundle-Localization: plugin
+Import-Package: org.osgi.framework;version="1.3.0",
+  entity, login, student, lecturer, admin
