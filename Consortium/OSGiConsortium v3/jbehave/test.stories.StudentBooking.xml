@@ -1,0 +1,12 @@
+<story path="test/stories/StudentBooking.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">take up the course</inOrderTo>
+  <asA keyword="As a">student</asA>
+  <iWantTo keyword="I want to">book a timetable slot for each session of my course</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Book a timetable slot for session of my course">
+<step outcome="successful">Given a timetable slot <parameter>1</parameter></step>
+<step outcome="successful">When the timetable slot belong to <parameter>51</parameter></step>
+<step outcome="successful">Then a timetable slot can be book is <parameter>true</parameter></step>
+</scenario>
+</story>

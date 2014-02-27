@@ -1,0 +1,12 @@
+<story path="test/stories/StudentCheckCompulsory.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">not fail the course,</inOrderTo>
+  <asA keyword="As a">student</asA>
+  <iWantTo keyword="I want to">check that I have signed up for all compulsory sessions.</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Check for all compulsory sessions">
+<step outcome="successful">Given a list of timetable slots which belong to student <parameter>51</parameter></step>
+<step outcome="successful">When all the compulsory timetable slots are booked</step>
+<step outcome="successful">Then student will not fail the course is <parameter>true</parameter></step>
+</scenario>
+</story>

@@ -1,0 +1,12 @@
+<story path="test/stories/LectViewCourse.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">see when the session happens,</inOrderTo>
+  <asA keyword="As a">lecturer</asA>
+  <iWantTo keyword="I want to">see the details or every timetable slot in a session.</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Lecturer see list of courses&apos; sessions with timeslot details">
+<step outcome="successful">Given a list of timetable which belongs to lecturer id is <parameter>1</parameter></step>
+<step outcome="successful">When courses is managed by the lecturer</step>
+<step outcome="successful">Then timetable details for the courses will be showned is <parameter>true</parameter></step>
+</scenario>
+</story>
